@@ -1,0 +1,430 @@
+body{
+   font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   background-color:rgb(245, 241, 241);
+   padding: 30px;
+}
+.md1{
+    display: grid;
+    grid-template-columns: auto auto ;
+}
+button{
+    cursor: pointer;
+}
+.mag{
+   background-color: brown; 
+   height:15em;
+   text-align: center;
+   align-content: center;
+   color: white;
+   box-shadow: 0px 0px 5px;
+   
+}
+.p{
+   background-color: white;
+   height:15em;
+   text-align: left;
+   align-content: center;
+   box-shadow: 0px 0px 5px;
+}
+.fus{   
+    background-color: white;
+    height:15em;
+    align-content: center; 
+    text-align: center;
+    box-shadow: 0px 0px 5px;
+}
+.ac{
+   color: brown;
+}
+.read{
+    background-color: brown;
+    color: white;
+    font-size:xx-small;
+    padding:1.0em;
+    width:10em;
+    margin-left: 59em;
+}
+.girl{
+    background-color:brown;
+    color:white;
+    height:15em;
+    align-content: center; 
+    text-align: center;
+    box-shadow: 0px 0px 5px;
+}
+.river{
+    height:15em;
+    box-shadow: 0px 0px 5px;
+}
+.img1{
+   border-radius: 50%;
+   margin-top: 1em;
+   margin-left: 4em;
+}
+.lorem{
+    background-color: white;
+    height:15em;
+    align-content: center; 
+    text-align: center;
+    box-shadow: 0px 0px 5px;
+    
+}
+span{
+    color: blue;
+}
+.md2{
+    display: flex;
+    margin-top: 30px;
+    background-color: white;
+    text-align: center;
+    align-items: center;
+    justify-content: space-around;
+    height: 30em;
+    box-shadow: 0px 0px 5px;
+    
+}
+.a{
+    width: 45em;
+    text-align: left;
+}
+.img2{
+    justify-content: flex-end;
+    border: 1px solid black;
+    height:30em ;
+    width: 20em;
+    margin-right: -130px;
+}
+.nul{
+    color: brown;
+    text-align: left;
+}
+.md3{
+    display: flex;
+    margin-top: 30px;
+    background-color: white;
+    height: 36em;
+    box-shadow: 0px 0px 5px;
+    
+}
+.img3{
+    height:36em ;
+    width: 25em;
+   
+}
+.d11{
+    height: 30em;
+    width: 20em;
+    border: 1px solid rgb(120, 201, 162);
+    margin-left: 120px;
+    margin-top: 50px;
+    text-align: center;
+    align-items: center;
+    justify-content: space-around;
+    box-shadow: 0px 0px 5px;
+}
+.sp{
+    height: 5em;
+    width: 20em;
+    border: 1px solid rgb(120, 201, 162);
+    background-color: rgb(120, 201, 162) ;
+    color: white;
+    text-align: center;
+}
+.ut{
+    height: 15em;
+    width: 12em;
+    margin: auto;
+    margin-top: 5em;
+    text-align: left;
+}
+.buy{
+    background-color: rgb(120, 201, 162)  ;
+    color: white;
+    font-size:x-small;
+    padding:1.5em;
+    width:12em;
+    border: none;
+
+}
+.d12{
+    height: 30em;
+    width: 20em; 
+    border: 1px solid rgb(120, 201, 162);
+    margin: auto;
+    text-align: center;
+    align-items: center;
+    justify-content: space-around;
+    box-shadow: 0px 0px 5px;
+}
+.ap{
+    height: 5em;
+    width: 20em;
+    border: 1px solid rgb(120, 201, 162);
+    background-color: rgb(120, 201, 162) ;
+    color: white;
+    text-align: center; 
+}
+.vel{
+    height: 15em;
+    width: 12em;
+    margin: auto;
+    margin-top: 5em;
+    text-align: left;
+}
+.md4{
+    margin-top: 30px;
+    height: 46em; 
+    
+    
+}
+.d21{
+    height: 8em;
+    background-color: brown;
+    color: white;
+    text-align: left;
+    align-content: center;
+    justify-content: space-around; 
+    box-shadow: 0px 0px 5px;
+}
+.form{
+    margin-left: 20em;
+}
+.d22{
+    height: 32em ;
+    width: 50em;
+    background-color: white;
+    margin-left: 20em;
+    margin-top: -40em; 
+    box-shadow: 0px 0px 5px; 
+}
+.d23{
+    margin-top: -6em;
+    height: 10em;
+    margin-top: 28em;
+    background-color: rgb(99, 93, 93);  
+    box-shadow: 0px 0px 5px;
+}
+.ip1{
+    margin-top: 7em;
+    margin-left: 5em;
+    padding: 5px;
+    width: 15em;
+}
+.ip2{
+    margin-top: 3em;
+    margin-left: 5em;
+    padding: 5px;
+    width: 15em;
+}
+#position{
+    margin-top: 3em;
+    margin-left: 5em;
+    padding: 5px;
+    width: 16em;
+}
+#salary{
+    margin-top: 3em;
+    margin-left: 5em;
+    padding: 5px;
+    width: 16em;
+}
+.male{
+    margin-left: 5em;
+
+}
+.female{
+    margin-left: 7em;
+    
+}
+#text{
+    height: 11em;
+    width: 25em;
+    margin-top: -11em;
+    margin-left: 20em;
+}
+.submit{
+    color: white;
+    background-color: brown;
+    margin-top: 5em;
+    margin-left: 26em;
+    padding: 7px;
+    width: 8em;
+}
+.foot1{
+    height: 10em;
+    width: 10em;
+    margin-bottom: 10em;
+    margin-left: 22em;
+    align-content: center;
+    color: white;
+}
+.foot2{
+    height: 10em;
+    width: 10em;
+    margin-bottom: 10em;
+    margin-left: 58em;
+    margin-top: -20em;
+    align-content: center;
+    color: white;
+}
+.copy{
+    height: 3em;
+    text-align: center;
+    color: rgb(77, 74, 74);
+    align-content: center;
+}
+
+@media screen and (max-width:768px){
+    .md1{
+       grid-template-columns:1fr;
+       width: 100%;
+    }
+    .mag{
+        background-color: brown;
+        width:100%;
+        text-align: center;
+        align-content: center;
+        color: white;
+     }
+    .p{
+        background-color: white;
+        width:100%;
+        align-content: center; 
+     }
+     .girl{
+        background-color:brown;
+        color:white;
+        width: 100%;
+    }
+    .img1{
+       border-radius: 50%;
+       margin-top: 1em;
+       margin-left: 7em;
+    }
+    .lorem{
+        align-content: center; 
+        background-color: white;
+        width: 100%;
+    }
+    .read{
+        background-color: brown;
+        color: white;
+        font-size:xx-small;
+        padding:1.0em;
+        width:10em;
+        margin-left: 19em;
+    }
+    .md2 {
+        flex-direction: column; 
+        height: auto; 
+    }
+
+    .a {
+        width: 100%; 
+        text-align: center; 
+    }
+
+    .img2 {
+        width: 80%; 
+        margin-right: 0; 
+        margin-top: 20px; 
+    }
+
+
+    .md3 {
+        flex-direction: column; 
+        height: auto; 
+        margin-top: 20px;
+    }
+
+    .img3 {
+        width: 100%; 
+        height: auto;
+
+    }
+
+    .d11, .d12 {
+        width: 90%; 
+        margin: 20px auto; 
+        height: auto;
+         
+    }
+
+    .sp, .ap {
+        width: 100%;
+        margin: 0px auto; 
+    }
+
+    .buy {
+        width: 40%; 
+        padding: 1em; 
+        font-size: small; 
+        margin-bottom: 15px;
+    }
+
+    .ut, .vel {
+        width: 80%; 
+        margin-top: 1em; 
+    }
+
+
+    .d22, .d23,  .submit {
+        margin-left: 0;
+        width: 90%;
+    }
+    .form{
+        margin-left:27px;
+    }
+    .d22 {
+        height:500px;
+        margin-left:28px;
+    }
+
+    .ip1
+    {
+        width:190px;
+        margin-left: 8px;
+        padding: 5px;
+        margin-top: 10em;
+    }
+    .ip2{
+        width:190px;
+        margin-left: 8px;
+        padding: 5px;
+        margin-top: 1em;
+    }
+    #position,
+    #salary {
+        width:205px;
+        margin-left: 8px;
+        margin-top: 11px;
+    }
+
+    .male, .female {
+        margin-left: 1em;
+    }
+
+    .area {
+        width:190px;
+        height:139px;
+        margin-left:-80px;
+        margin-top: 65px;
+    }
+    .submit {
+        width: 30%;
+        margin-left: 170px;
+        margin-top: 8em;
+    }
+
+    .foot1{
+        margin-left: 35px;
+        text-align: center;
+    }
+    .foot2 {
+        margin-left: 350px;
+        text-align: center;
+    }
+    .d23{
+        width:100%
+    }
+}
