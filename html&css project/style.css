@@ -19,7 +19,6 @@ button{
    text-align: center;
    align-content: center;
    color: white;
-   box-shadow: 0px 0px 5px;
    
 }
 .p{
@@ -27,14 +26,12 @@ button{
    height:15em;
    text-align: left;
    align-content: center;
-   box-shadow: 0px 0px 5px;
 }
 .fus{   
     background-color: white;
     height:15em;
     align-content: center; 
     text-align: center;
-    box-shadow: 0px 0px 5px;
 }
 .ac{
    color: brown;
@@ -53,11 +50,9 @@ button{
     height:15em;
     align-content: center; 
     text-align: center;
-    box-shadow: 0px 0px 5px;
 }
 .river{
     height:15em;
-    box-shadow: 0px 0px 5px;
 }
 .img1{
    border-radius: 50%;
@@ -69,8 +64,6 @@ button{
     height:15em;
     align-content: center; 
     text-align: center;
-    box-shadow: 0px 0px 5px;
-    
 }
 span{
     color: blue;
@@ -84,8 +77,6 @@ span{
     justify-content: space-around;
     height: 25%;
     width: 100%;
-    box-shadow: 0px 0px 5px;
-    
 }
 .a{
     width: 45em;
@@ -108,8 +99,6 @@ span{
     background-color: white;
     height: 36em;
     width: 100%;
-    box-shadow: 0px 0px 5px;
-    
 }
 .img3{
     height:36em ;
@@ -125,7 +114,6 @@ span{
     text-align: center;
     align-items: center;
     justify-content: space-around;
-    box-shadow: 0px 0px 5px;
 }
 .sp{
     height: 5em;
@@ -159,7 +147,6 @@ span{
     text-align: center;
     align-items: center;
     justify-content: space-around;
-    box-shadow: 0px 0px 5px;
 }
 .ap{
     height: 5em;
@@ -189,7 +176,6 @@ span{
     text-align: left;
     align-content: center;
     justify-content: space-around; 
-    box-shadow: 0px 0px 5px;
 }
 .form{
     margin-left: 22em;
@@ -200,14 +186,14 @@ span{
     background-color: white;
     margin-left: 22em;
     margin-top: -40em; 
-    box-shadow: 0px 0px 5px; 
+    
 }
 .d23{
     margin-top: -6em;
     height: 10em;
     margin-top: 28em;
     background-color: rgb(99, 93, 93);  
-    box-shadow: 0px 0px 5px;
+    
 }
 .ip1{
     margin-top: 7em;
