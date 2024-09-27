@@ -266,15 +266,12 @@ span{
 }
 
 @media screen and (max-width:468px){
-    body{
-        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-        background-color:rgb(245, 241, 241);
-        overflow-x: hidden;
-     }
+    
     .md1{
        display: grid;
        grid-template-columns:repeat(1,1fr);
        grid-template-rows: repeat(6,1fr);
+       overflow-x: hidden;
     }
     .mag{
         background-color: brown;
@@ -423,6 +420,10 @@ span{
     }
     .d23{
         width:100%
+    }
+    .read, .img1, .img2, .buy, .d22, .area, .submit {
+        max-width: 100%;
+        overflow-x: hidden;
     }
 }
 
