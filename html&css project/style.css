@@ -1,11 +1,14 @@
 body{
    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
    background-color:rgb(245, 241, 241);
-   /* padding: 30px; */
+   overflow-x: hidden;
 }
 .md1{
     display: grid;
-    grid-template-columns: auto auto ;
+    grid-template-columns:repeat(2,1fr);
+    grid-template-rows: repeat(3,1fr);
+    width: 100%;
+    height: 25%;
 }
 button{
     cursor: pointer;
@@ -79,7 +82,8 @@ span{
     text-align: center;
     align-items: center;
     justify-content: space-around;
-    height: 30em;
+    height: 25%;
+    width: 100%;
     box-shadow: 0px 0px 5px;
     
 }
@@ -92,7 +96,7 @@ span{
     border: 1px solid black;
     height:30em ;
     width: 20em;
-    margin-right: -130px;
+    margin-right: -150px;
 }
 .nul{
     color: brown;
@@ -103,6 +107,7 @@ span{
     margin-top: 30px;
     background-color: white;
     height: 36em;
+    width: 100%;
     box-shadow: 0px 0px 5px;
     
 }
@@ -174,7 +179,7 @@ span{
 .md4{
     margin-top: 30px;
     height: 46em; 
-    
+    width: 100%;
     
 }
 .d21{
@@ -187,13 +192,13 @@ span{
     box-shadow: 0px 0px 5px;
 }
 .form{
-    margin-left: 20em;
+    margin-left: 22em;
 }
 .d22{
     height: 32em ;
     width: 50em;
     background-color: white;
-    margin-left: 20em;
+    margin-left: 22em;
     margin-top: -40em; 
     box-shadow: 0px 0px 5px; 
 }
@@ -254,7 +259,7 @@ span{
     height: 10em;
     width: 10em;
     margin-bottom: 10em;
-    margin-left: 22em;
+    margin-left: 23em;
     align-content: center;
     color: white;
 }
@@ -262,7 +267,7 @@ span{
     height: 10em;
     width: 10em;
     margin-bottom: 10em;
-    margin-left: 58em;
+    margin-left: 60em;
     margin-top: -20em;
     align-content: center;
     color: white;
@@ -274,10 +279,11 @@ span{
     align-content: center;
 }
 
-@media screen and (max-width:368px){
+@media screen and (max-width:468px){
     .md1{
-       grid-template-columns:1fr;
-       width: 100%;
+       display: grid;
+       grid-template-columns:repeat(1,1fr);
+       grid-template-rows: repeat(6,1fr);
     }
     .mag{
         background-color: brown;
@@ -299,7 +305,7 @@ span{
     .img1{
        border-radius: 50%;
        margin-top: 1em;
-       margin-left: 7em;
+       margin-left: 1em;
     }
     .lorem{
         align-content: center; 
@@ -369,7 +375,7 @@ span{
 
 
     .d22, .d23,  .submit {
-        margin-left: 0;
+        margin-left:0;
         width: 90%;
     }
     .form{
@@ -377,25 +383,25 @@ span{
     }
     .d22 {
         height:500px;
-        margin-left:28px;
+        width: 100%;
     }
 
     .ip1
     {
-        width:190px;
+        width:100px;
         margin-left: 8px;
         padding: 5px;
-        margin-top: 10em;
+        margin-top: 1em;
     }
     .ip2{
-        width:190px;
+        width:100px;
         margin-left: 8px;
         padding: 5px;
         margin-top: 1em;
     }
     #position,
     #salary {
-        width:205px;
+        width:110px;
         margin-left: 8px;
         margin-top: 11px;
     }
@@ -405,26 +411,27 @@ span{
     }
 
     .area {
-        width:190px;
-        height:139px;
-        margin-left:-80px;
-        margin-top: 65px;
+        width:250px;
+        height:220px;
+        margin-left:-310px;
+        margin-top: 200px;
     }
     .submit {
         width: 30%;
-        margin-left: 170px;
-        margin-top: 8em;
+        margin-left: 10em;
+        margin-top: 20em;
     }
 
     .foot1{
-        margin-left: 35px;
+        margin-left: 5px;
         text-align: center;
     }
     .foot2 {
-        margin-left: 350px;
+        margin-left: 12em;
         text-align: center;
     }
     .d23{
         width:100%
     }
 }
+
