@@ -27,6 +27,7 @@ body {
     max-width: 270px;
 }
 .hangman-box h1{
+    color: royalblue;
     font-size: 1.45rem;
     margin-top: 20px;
     text-align: center;
@@ -151,6 +152,7 @@ body {
     }
     .hangman-box h1{
         font-size: 1.45rem;
+        color: royalblue;
         margin-top: 20px;
         text-align: center;
         text-transform: uppercase;
